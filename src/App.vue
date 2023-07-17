@@ -64,7 +64,6 @@ body {
 }
 
 .wrapper {
-  /*position: relative;*/
   margin: 0 auto;
   width: 375px;
   height: 812px;
