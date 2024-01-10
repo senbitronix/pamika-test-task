@@ -47,7 +47,7 @@ function getNextPageData() {
 }
 
 const debouncedSearch = lodash.debounce(() => {
-  fetching({ name: props.search, page: props.currentPage })
+  fetching({ name: props.search, page: 1 })
 }, 500)
 
 watch(
