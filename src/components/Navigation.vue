@@ -9,10 +9,10 @@
 
 <script setup>
 const navItems = [
-  { id: 1, value: 'карта', src: '/Navigation.png' },
-  { id: 1, value: 'чаты', src: '/Comment.png' },
-  { id: 1, value: 'мои встречи', src: '/Clock.png' },
-  { id: 1, value: 'профиль', src: '/User.png' }
+  { id: 1, value: 'карта', src: '../public/Navigation.png' },
+  { id: 1, value: 'чаты', src: '/public/Comment.png' },
+  { id: 1, value: 'мои встречи', src: '../Clock.png' },
+  { id: 1, value: 'профиль', src: '../User.png' }
 ]
 </script>
 
